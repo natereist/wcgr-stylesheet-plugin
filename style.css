@@ -1,23 +1,23 @@
 @import url(//fast.fonts.net/cssapi/f3f68dcc-60b8-46e7-b36e-4057ff7c53ae.css);
-/* line 18, sass/style.scss */
+/* line 23, sass/style.scss */
 .brandon-lt {
   font-family: "Brandon Grot W01 Light", sans-serif;
   font-weight: normal;
 }
 
-/* line 22, sass/style.scss */
+/* line 27, sass/style.scss */
 .brandon-rg {
   font-family: "BrandonGrotW01-Regular", sans-serif;
   font-weight: normal;
 }
 
-/* line 26, sass/style.scss */
-.brandon-bld {
+/* line 31, sass/style.scss */
+.brandon-bld, h1, h2, h3, #navbar a, .entry-title, .entry-meta {
   font-family: "Brandon Grot W01 Bold", sans-serif;
   font-weight: normal;
 }
 
-/* line 33, sass/style.scss */
+/* line 38, sass/style.scss */
 .transition, button,
 input[type="submit"],
 input[type="button"],
@@ -30,61 +30,61 @@ input[type="reset"], a.button, .widget a.button {
 }
 
 /* Micro ClearFix Mixin */
-/* line 42, sass/style.scss */
+/* line 47, sass/style.scss */
 .clearfix {
   zoom: 1;
 }
-/* line 44, sass/style.scss */
+/* line 49, sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
-/* line 45, sass/style.scss */
+/* line 50, sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 48, sass/style.scss */
+/* line 53, sass/style.scss */
 body {
   background: white url(http://localhost:8888/wordpress/wcgr/wp-content/uploads/2014/06/photo.jpg) no-repeat;
   background-size: 100% auto;
   font-family: "Brandon Grot W01 Light", sans-serif;
 }
 
-/* line 54, sass/style.scss */
+/* line 59, sass/style.scss */
 .site {
   background: transparent;
   border: none;
   max-width: 100%;
 }
 
-/* line 60, sass/style.scss */
+/* line 65, sass/style.scss */
 #main {
   background: #FFF;
 }
 
-/* line 64, sass/style.scss */
+/* line 69, sass/style.scss */
 .search-form {
   display: none;
 }
 
-/* line 69, sass/style.scss */
+/* line 74, sass/style.scss */
 .site-header .home-link {
   min-height: 230px;
   padding-top: 20px;
 }
-/* line 73, sass/style.scss */
+/* line 78, sass/style.scss */
 .site-header .home-link .site-title {
   background: url(http://localhost:8888/wordpress/wcgr/wp-content/uploads/2014/06/logo.png) no-repeat center top;
   height: 200px;
-  width: 200px;
-  background-size: 200px 200px;
+  width: 296px;
+  background-size: 296px 200px;
   margin: 0 auto;
   text-indent: -9999em;
 }
-/* line 82, sass/style.scss */
+/* line 87, sass/style.scss */
 .site-header .home-link .site-description {
-  top: -50px;
+  /* top: -50px; */
   text-align: center;
   position: relative;
   font-style: normal;
@@ -96,42 +96,42 @@ body {
   font-weight: 600;
 }
 
-/* line 97, sass/style.scss */
+/* line 102, sass/style.scss */
 header#masthead {
   background: none;
   margin-top: 60px;
 }
 
-/* line 102, sass/style.scss */
+/* line 107, sass/style.scss */
 .widget {
   background-color: #f8f7ed;
 }
 
-/* line 107, sass/style.scss */
+/* line 112, sass/style.scss */
 #secondary .widget-area {
   height: auto !important;
 }
-/* line 111, sass/style.scss */
+/* line 116, sass/style.scss */
 #secondary .wcb_widget_sponsors {
   width: 100%;
   position: relative !important;
   top: auto !important;
   left: auto !important;
 }
-/* line 117, sass/style.scss */
+/* line 122, sass/style.scss */
 #secondary .wcb_widget_sponsors h3.widget-title {
   font-style: normal;
   font-weight: 400;
   color: #A79878;
   font-size: 28px;
 }
-/* line 125, sass/style.scss */
+/* line 130, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-level-title {
   font-weight: 300;
   color: #BDB29A;
   margin-bottom: 0;
 }
-/* line 130, sass/style.scss */
+/* line 135, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-level-title:after {
   content: "";
   display: block;
@@ -139,7 +139,7 @@ header#masthead {
   height: 2px;
   width: 100%;
 }
-/* line 139, sass/style.scss */
+/* line 144, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
   margin: 40px 0;
   -webkit-transition: all 200ms ease-in-out;
@@ -148,47 +148,73 @@ header#masthead {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
-/* line 147, sass/style.scss */
+/* line 152, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo:hover {
   opacity: .7;
 }
 
-/* line 155, sass/style.scss */
+/* line 160, sass/style.scss */
 .wcorg-mailchimp input {
   width: 100%;
   height: 48px;
   margin-bottom: 20px;
 }
 
-/* line 161, sass/style.scss */
-h1, h2, h3, h4, h5, p, li, input, textarea {
+/* line 171, sass/style.scss */
+h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* line 176, sass/style.scss */
+h4, h5, p, li, input, textarea {
   font-family: "Brandon Grot W01 Light", sans-serif;
 }
 
-/* line 165, sass/style.scss */
+/* line 180, sass/style.scss */
 h3 {
   font-weight: 600;
 }
 
-/* line 169, sass/style.scss */
+/* line 184, sass/style.scss */
 .hentry {
   padding: 60px 0;
 }
 
-/* line 173, sass/style.scss */
+/* line 188, sass/style.scss */
 .site-main .sidebar-container {
   top: 60px;
 }
 
-/* line 177, sass/style.scss */
+/* line 192, sass/style.scss */
 .entry-title {
-  font-family: "Brandon Grot W01 Light", sans-serif;
   font-size: 32px;
   font-weight: 300;
   line-height: 42px;
+  text-transform: uppercase;
+}
+/* line 198, sass/style.scss */
+.entry-title a {
+  color: inherit;
+}
+/* line 200, sass/style.scss */
+.entry-title a:hover {
+  color: #0099bd;
 }
 
-/* line 184, sass/style.scss */
+/* line 206, sass/style.scss */
+.entry-meta {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+}
+/* line 211, sass/style.scss */
+.entry-meta *:before {
+  color: #000;
+}
+
+/* line 216, sass/style.scss */
 .entry-content {
   font-family: "Brandon Grot W01 Light", sans-serif;
   font-weight: 300;
@@ -196,7 +222,7 @@ h3 {
   line-height: 32px;
 }
 
-/* line 191, sass/style.scss */
+/* line 223, sass/style.scss */
 footer.site-footer {
   background: #203f37;
   text-align: center !important;
@@ -205,50 +231,50 @@ footer.site-footer {
   line-height: 23px;
   letter-spacing: 1.5pt;
 }
-/* line 199, sass/style.scss */
+/* line 231, sass/style.scss */
 footer.site-footer #secondary {
   background: #f8f7ed;
   border-top: 2px solid #ECEBDD;
 }
-/* line 204, sass/style.scss */
+/* line 236, sass/style.scss */
 footer.site-footer .widget-title, footer.site-footer .widget-title a, footer.site-footer .wp-caption-text {
   color: #000;
 }
-/* line 208, sass/style.scss */
+/* line 240, sass/style.scss */
 footer.site-footer .site-info {
   padding: 100px 0;
   border-top: 2px solid #203f37;
 }
-/* line 213, sass/style.scss */
+/* line 245, sass/style.scss */
 footer.site-footer a {
   color: #FFF;
 }
 
-/* line 221, sass/style.scss */
+/* line 253, sass/style.scss */
 button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-  background: #b7cf17;
+  background: #d8493c;
   border: none;
   border-bottom: none;
   border-radius: 0;
-  color: #203f37;
+  color: #fff;
   font-family: "Brandon Grot W01 Light", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 1.5pt;
 }
-/* line 233, sass/style.scss */
+/* line 265, sass/style.scss */
 button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover {
-  background: #ed6a31;
+  background: #76261e;
   color: #fff;
 }
 
-/* line 239, sass/style.scss */
+/* line 271, sass/style.scss */
 a.button, .widget a.button {
   display: block;
   height: 48px;
@@ -261,119 +287,120 @@ a.button, .widget a.button {
   font-size: 16px;
   letter-spacing: 1.5pt;
 }
-/* line 252, sass/style.scss */
+/* line 284, sass/style.scss */
 a.button:hover, .widget a.button:hover {
   background: #b7cf17;
   color: #203f37;
   text-decoration: none;
 }
 
-/* line 258, sass/style.scss */
+/* line 290, sass/style.scss */
 a.button {
   display: inline-block;
   padding: 0 10px;
 }
 
-/* line 263, sass/style.scss */
+/* line 295, sass/style.scss */
 #text-4 img {
   width: 100%;
   max-width: 98px;
   margin: 15px;
 }
-/* line 268, sass/style.scss */
+/* line 300, sass/style.scss */
 #text-4 img:hover {
   opacity: .7;
 }
 
 @media screen and (min-width: 1203px) {
-  /* line 275, sass/style.scss */
+  /* line 307, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 20px;
     font-size: 14px;
   }
 }
 @media screen and (min-width: 1044px) and (max-width: 1202px) {
-  /* line 282, sass/style.scss */
+  /* line 314, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 15px;
     font-size: 13px;
   }
 }
 @media screen and (min-width: 644px) and (max-width: 1043px) {
-  /* line 289, sass/style.scss */
+  /* line 321, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 10px;
     font-size: 12px;
   }
 }
 @media screen and (min-width: 644px) {
-  /* line 298, sass/style.scss */
+  /* line 330, sass/style.scss */
   .home .site-header .home-link {
     padding-top: 60px;
     min-height: 480px;
   }
-  /* line 302, sass/style.scss */
+  /* line 334, sass/style.scss */
   .home .site-header .home-link .site-title {
     height: 250px;
     width: 371px;
     background-size: auto;
   }
-  /* line 308, sass/style.scss */
+  /* line 340, sass/style.scss */
   .home .site-header .home-link .site-description {
-    top: -70px;
+    top: 0px;
     font-size: 18px;
   }
 
-  /* line 316, sass/style.scss */
+  /* line 348, sass/style.scss */
   #navbar {
     position: fixed;
     top: 0;
     height: 60px;
     max-width: 100%;
-    background: #203f37;
+    background: #d8493c;
     z-index: 10000;
   }
-  /* line 324, sass/style.scss */
+  /* line 356, sass/style.scss */
   #navbar .nav-menu {
     padding: 0;
   }
-  /* line 330, sass/style.scss */
+  /* line 362, sass/style.scss */
   #navbar .nav-menu .current_page_item > a,
   #navbar .nav-menu .current_page_ancestor > a,
   #navbar .nav-menu .current-menu-item > a,
   #navbar .nav-menu .current-menu-ancestor > a {
     font-style: normal;
   }
-  /* line 334, sass/style.scss */
+  /* line 366, sass/style.scss */
   #navbar .nav-menu li a {
     line-height: 60px;
     color: #FFF;
     text-transform: uppercase;
+    font-size: 12px;
     letter-spacing: 1.5pt;
     /* @extend .transition; */
   }
-  /* line 342, sass/style.scss */
+  /* line 375, sass/style.scss */
   #navbar .nav-menu li:hover > a {
-    background-color: #203f37;
+    background: transparent;
   }
-  /* line 346, sass/style.scss */
+  /* line 379, sass/style.scss */
   #navbar .nav-menu li a:hover {
-    background-color: #b7cf17;
-    color: #203f37;
+    background: #d8493c;
+    color: #76261e;
   }
-  /* line 352, sass/style.scss */
+  /* line 385, sass/style.scss */
   #navbar .nav-menu .sub-menu,
   #navbar .nav-menu .children {
     border: none;
     left: 0;
-    background-color: #203f37;
+    /* background-color: $dark-red; */
   }
-  /* line 357, sass/style.scss */
+  /* line 390, sass/style.scss */
   #navbar .nav-menu .sub-menu li,
   #navbar .nav-menu .children li {
     width: 100%;
   }
-  /* line 360, sass/style.scss */
+  /* line 393, sass/style.scss */
   #navbar .nav-menu .sub-menu li a,
   #navbar .nav-menu .children li a {
     line-height: 24px;
@@ -383,7 +410,7 @@ a.button {
     width: 100%;
     min-width: 150px;
   }
-  /* line 376, sass/style.scss */
+  /* line 409, sass/style.scss */
   #navbar li.current_page_item:after,
   #navbar li.current-menu-ancestor:after,
   #navbar li.current-menu-parent:after,
@@ -393,55 +420,55 @@ a.button {
     content: '';
     height: 8px;
     width: 100%;
-    background: #b7cf17;
+    background: #76261e;
     position: absolute;
     bottom: 0px;
   }
-  /* line 386, sass/style.scss */
+  /* line 419, sass/style.scss */
   #navbar li.tickets {
     float: right;
   }
-  /* line 389, sass/style.scss */
+  /* line 422, sass/style.scss */
   #navbar li.tickets a {
-    background: #b7cf17;
-    color: #203f37;
+    background: #d8493c;
+    color: #fff;
     /* @extend .transition; */
   }
-  /* line 394, sass/style.scss */
+  /* line 427, sass/style.scss */
   #navbar li.tickets a:hover {
     background: #ed6a31;
     color: #fff;
   }
-  /* line 401, sass/style.scss */
+  /* line 434, sass/style.scss */
   #navbar .home a {
     text-indent: -99999em;
     height: 60px;
     width: 60px;
     background: url(http://2014.asheville.wordcamp.org/files/2014/01/logo-sm.png) no-repeat 0 0;
   }
-  /* line 409, sass/style.scss */
+  /* line 442, sass/style.scss */
   #navbar li.current_page_item.home:after,
   #navbar li.current_page_item.tickets:after {
     display: none;
   }
 
-  /* line 415, sass/style.scss */
+  /* line 448, sass/style.scss */
   .main-navigation {
     max-width: 100% !important;
   }
 
-  /* line 419, sass/style.scss */
+  /* line 452, sass/style.scss */
   .site-content {
     min-height: 720px;
   }
 
-  /* line 423, sass/style.scss */
+  /* line 456, sass/style.scss */
   #main {
     max-width: 100%;
     margin: 0 auto;
   }
 
-  /* line 429, sass/style.scss */
+  /* line 462, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
     width: 50%;
     display: block;
@@ -450,26 +477,26 @@ a.button {
     box-sizing: border-box;
   }
 
-  /* line 438, sass/style.scss */
+  /* line 471, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-champion .sponsor-logo {
     width: 33%;
     padding: 15px;
     box-sizing: border-box;
   }
 
-  /* line 445, sass/style.scss */
+  /* line 478, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-accomplice .sponsor-logo {
     width: 25%;
     padding: 10px;
     box-sizing: border-box;
   }
 
-  /* line 451, sass/style.scss */
+  /* line 484, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.small-business-sponsor .sponsor-logo {
     min-height: 100px;
   }
 
-  /* line 456, sass/style.scss */
+  /* line 489, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.in-kind-sponsor .sponsor-logo {
     width: 33%;
     padding: 10px;
@@ -478,27 +505,27 @@ a.button {
   }
 }
 @media screen and (max-width: 643px) {
-  /* line 466, sass/style.scss */
+  /* line 499, sass/style.scss */
   header#masthead {
     margin-top: 0;
   }
 
-  /* line 470, sass/style.scss */
+  /* line 503, sass/style.scss */
   .navbar {
     background-color: #203f37;
     color: #FFF !important;
   }
-  /* line 475, sass/style.scss */
+  /* line 508, sass/style.scss */
   .navbar .nav-menu li a,
   .navbar .nav-menu li > ul a {
     color: #FFF;
   }
-  /* line 479, sass/style.scss */
+  /* line 512, sass/style.scss */
   .navbar .nav-menu .sub-menu, .navbar .nav-menu .children {
     border: none;
   }
 }
-/* line 490, sass/style.scss */
+/* line 523, sass/style.scss */
 .entry-content,
 .site-content article,
 body,
@@ -510,39 +537,39 @@ p,
   hyphens: none !important;
 }
 
-/* line 498, sass/style.scss */
+/* line 531, sass/style.scss */
 .tix-column-remaining {
   display: none;
 }
 
-/* line 503, sass/style.scss */
+/* line 536, sass/style.scss */
 #tix-attendees li {
   height: 120px;
 }
 
-/* line 525, sass/style.scss */
+/* line 558, sass/style.scss */
 .wcpt-schedule td {
   vertical-align: top;
 }
-/* line 528, sass/style.scss */
+/* line 561, sass/style.scss */
 .wcpt-schedule .wcpt-track-name {
   display: block;
 }
-/* line 531, sass/style.scss */
+/* line 564, sass/style.scss */
 .wcpt-schedule .wcpt-session-title {
   display: block;
 }
-/* line 535, sass/style.scss */
+/* line 568, sass/style.scss */
 .wcpt-schedule .wcpt-session-speakers a {
   color: #21759b;
 }
 
-/* line 550, sass/style.scss */
+/* line 583, sass/style.scss */
 body.page-id-1 .sidebar-container {
   display: none;
 }
 
-/* line 558, sass/style.scss */
+/* line 591, sass/style.scss */
 #post-1 .entry-header,
 #post-1 .entry-content,
 #post-1 .entry-summary,
@@ -550,63 +577,63 @@ body.page-id-1 .sidebar-container {
   padding-right: 30px;
   padding-left: 30px;
 }
-/* line 563, sass/style.scss */
+/* line 596, sass/style.scss */
 #post-1 .color-key {
   margin-bottom: 20px;
   clear: both;
 }
-/* line 567, sass/style.scss */
+/* line 600, sass/style.scss */
 #post-1 .color-key > div {
   padding: 5px;
   color: #fff;
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
 }
-/* line 574, sass/style.scss */
+/* line 607, sass/style.scss */
 #post-1 .color-key .key-designer {
   background: #278374;
 }
-/* line 577, sass/style.scss */
+/* line 610, sass/style.scss */
 #post-1 .color-key .key-user-content {
   background: #24799e;
 }
-/* line 580, sass/style.scss */
+/* line 613, sass/style.scss */
 #post-1 .color-key .key-beginner {
   background: #ec5b2f;
 }
-/* line 583, sass/style.scss */
+/* line 616, sass/style.scss */
 #post-1 .color-key .key-developer {
   background: #ae4395;
 }
-/* line 586, sass/style.scss */
+/* line 619, sass/style.scss */
 #post-1 .color-key .key-everyone {
   background: #832f3f;
 }
-/* line 589, sass/style.scss */
+/* line 622, sass/style.scss */
 #post-1 .color-key .key-break {
   background: #797979;
 }
-/* line 595, sass/style.scss */
+/* line 628, sass/style.scss */
 #post-1 .wcpt-schedule td {
   vertical-align: top;
 }
-/* line 600, sass/style.scss */
+/* line 633, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-beginner {
   background: #ec5b2f;
 }
-/* line 603, sass/style.scss */
+/* line 636, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-usercontent {
   background: #24799e;
 }
-/* line 606, sass/style.scss */
+/* line 639, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-designer {
   background: #278374;
 }
-/* line 609, sass/style.scss */
+/* line 642, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-developer {
   background: #ae4395;
 }
-/* line 612, sass/style.scss */
+/* line 645, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-session-building-better-websites-through-collaboration-communication-and-consistency {
   background: #278374;
   /* Old browsers */
@@ -625,66 +652,66 @@ body.page-id-1 .sidebar-container {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#278374', endColorstr='#ae4395',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
-/* line 622, sass/style.scss */
+/* line 655, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-room-1.wcb-track-room-2.wcb-track-room-3.wcb-track-room-4 {
   background: #797979;
 }
-/* line 625, sass/style.scss */
+/* line 658, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-custom.wcb-track-room-1 {
   background: #832f3f;
 }
-/* line 630, sass/style.scss */
+/* line 663, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-custom,
 #post-1 .wcpt-schedule .wcpt-session-type-session {
   padding-left: 10px;
 }
-/* line 633, sass/style.scss */
+/* line 666, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-track-name {
   display: block;
 }
-/* line 636, sass/style.scss */
+/* line 669, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-title {
   color: #fff;
   line-height: 1.5;
   font-weight: bold;
 }
-/* line 641, sass/style.scss */
+/* line 674, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-title {
   display: block;
 }
-/* line 644, sass/style.scss */
+/* line 677, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers {
   font-style: italic;
 }
-/* line 646, sass/style.scss */
+/* line 679, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers a {
   color: #DCDCDC;
 }
-/* line 649, sass/style.scss */
+/* line 682, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers a:before {
   content: '- ';
 }
-/* line 653, sass/style.scss */
+/* line 686, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers:before {
   display: none;
 }
-/* line 657, sass/style.scss */
+/* line 690, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-session:before {
   color: #fff;
 }
-/* line 661, sass/style.scss */
+/* line 694, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-empty {
   display: none;
 }
 
 @media all and (min-width: 500px) {
-  /* line 667, sass/style.scss */
+  /* line 700, sass/style.scss */
   #post-1 .color-key > div {
     float: left;
     width: 50%;
   }
 
-  /* line 671, sass/style.scss */
+  /* line 704, sass/style.scss */
   #post-1 .wcpt-schedule td {
     border-right: 1px solid #fff;
   }

@@ -12,6 +12,6 @@ Author URI: http://mindutopia.com
 function wcgr_stylesheet(){
 	wp_enqueue_style( 'wcgr', plugins_url('style.css', __FILE__ ) );
 }
-add_action( 'wp_enqueue_styles', 'wcgr_stylesheet', 10, 1 );
+add_action( 'wp_enqueue_scripts', 'wcgr_stylesheet', 9999, 1 );
 
 ?>

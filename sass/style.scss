@@ -8,6 +8,11 @@ $yellow-green: #b7cf17;
 $orange: #ed6a31;
 $biege: #F8F7ED;
 
+$red: #D8493C;
+$dark-red: #76261E;
+$dark-gray:#333;
+$blue: #0099BD;
+
 // Font Variables
 $brandon-lt:'Brandon Grot W01 Light', sans-serif;
 $brandon-rg:'BrandonGrotW01-Regular', sans-serif;
@@ -73,14 +78,14 @@ body {
     .site-title {
       background: url(http://localhost:8888/wordpress/wcgr/wp-content/uploads/2014/06/logo.png) no-repeat center top;
       height: 200px;
-      width: 200px;
-      background-size: 200px 200px;
+      width: 296px;
+      background-size: 296px 200px;
       margin: 0 auto;
       text-indent: -9999em;
     }
 
     .site-description {
-      top: -50px;
+      /* top: -50px; */
       text-align: center;
       position: relative;
       font-style: normal;
@@ -158,7 +163,17 @@ header#masthead {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, p, li, input, textarea {
+h1, h2, h3, #navbar a{
+	@extend .brandon-bld;
+}
+
+
+h1{
+	text-transform: uppercase;
+	font-size:24px;
+	color:$dark-gray;
+}
+h4, h5, p, li, input, textarea {
   font-family: $body-font;
 }
 
@@ -175,10 +190,27 @@ h3 {
 }
 
 .entry-title {
-  font-family: $body-font;
   font-size: 32px;
   font-weight: 300;
   line-height: 42px;
+  text-transform: uppercase;
+  @extend .brandon-bld;
+  a{
+	  color: inherit;
+	  &:hover{
+		  color: $blue;
+	  }
+  }
+}
+
+.entry-meta{
+  text-transform: uppercase;
+  @extend .brandon-bld;
+  color: #000;
+  font-size: 12px;
+  *:before{
+		color: #000;
+	}
 }
 
 .entry-content {
@@ -219,11 +251,11 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-  background: $yellow-green;
+  background: $red;
   border: none;
   border-bottom: none;
   border-radius: 0;
-  color: $green;
+  color: #fff;
   font-family: $body-font;
   text-transform: uppercase;
   font-size: 16px;
@@ -231,7 +263,7 @@ input[type="reset"] {
   @extend .transition;
 
   &:hover {
-    background: $orange;
+    background: $dark-red;
     color: #fff;
   }
 }
@@ -306,7 +338,7 @@ a.button {
       }
 
       .site-description {
-        top: -70px;
+        top:0px;
         font-size: 18px;
       }
     }
@@ -318,7 +350,7 @@ a.button {
     top: 0;
     height: 60px;
     max-width: 100%;
-    background: $green;
+    background: $red;
     z-index: 10000;
 
     .nav-menu {
@@ -335,24 +367,25 @@ a.button {
         line-height: 60px;
         color: #FFF;
         text-transform: uppercase;
+        font-size: 12px;
         letter-spacing: 1.5pt;
         /* @extend .transition; */
       }
 
       li:hover > a {
-        background-color: $green;
+      	background: transparent;
       }
 
       li a:hover {
-        background-color: $yellow-green;
-        color: $green;
+      	background: $red;
+        color: $dark-red;
       }
 
       .sub-menu,
       .children {
         border: none;
         left: 0;
-        background-color: $dark-green;
+        /* background-color: $dark-red; */
 
         li {
           width: 100%;
@@ -378,7 +411,7 @@ a.button {
       content: '';
       height: 8px;
       width: 100%;
-      background: #b7cf17;
+      background: $dark-red;
       position: absolute;
       bottom: 0px;
     }
@@ -387,8 +420,8 @@ a.button {
       float: right;
 
       a {
-        background: $yellow-green;
-        color: $green;
+        background: $red;
+        color: #fff;
         /* @extend .transition; */
 
         &:hover {
@@ -672,3 +705,4 @@ body.page-id-1 {
     border-right: 1px solid #fff;
   }
 }
+
