@@ -1,0 +1,236 @@
+
+// Navbar fixes
+@media screen and (min-width: 1203px) {
+  .navbar .nav-menu li a {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1044px) and (max-width: 1202px) {
+  .navbar .nav-menu li a {
+    padding: 0 15px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 644px) and (max-width: 1043px) {
+  .navbar .nav-menu li a {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  .site-info,
+   #main {
+  	background-size: 100% auto !important;
+  }
+}
+
+// Only Desktop Changes
+@media screen and (min-width: 644px) {
+  .home .site-header {
+    .home-link {
+      padding-top: 60px;
+      min-height: 480px;
+
+      .site-title {
+        height: 250px;
+        width: 371px;
+        background-size: auto;
+      }
+
+      .site-description {
+        top: 50px;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+
+  // Navbar
+  #navbar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    max-width: 100%;
+    background: $red;
+    z-index: 10000;
+
+    .nav-menu {
+      padding: 0;
+
+      .current_page_item > a,
+      .current_page_ancestor > a,
+      .current-menu-item > a,
+      .current-menu-ancestor > a {
+        font-style: normal;
+      }
+
+      li a {
+        line-height: 60px;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1.5pt;
+        /* @extend .transition; */
+      }
+
+      li:hover > a {
+      	background: transparent;
+      }
+
+      li a:hover {
+      	background: $red;
+        color: $dark-red;
+      }
+
+      .sub-menu,
+      .children {
+        border: none;
+        left: 0;
+        /* background-color: $dark-red; */
+
+        li {
+          width: 100%;
+
+          a {
+            line-height: 24px;
+            padding: 12px 20px;
+            border-bottom: 1px solid #2C503A;
+            text-align: center;
+            width: 100%;
+            min-width: 150px;
+          }
+        }
+      }
+    }
+
+    li.current_page_item:after,
+    li.current-menu-ancestor:after,
+    li.current-menu-parent:after,
+    li.current_page_parent:after,
+    li.current_page_ancestor:after {
+      display: block;
+      content: '';
+      height: 8px;
+      width: 100%;
+      background: $dark-red;
+      position: absolute;
+      bottom: 0px;
+    }
+
+    li.tickets {
+      float: right;
+	  margin-right: 10px;
+      a {
+        background: $dark-red;
+        color: #fff;
+        /* @extend .transition; */
+
+        &:hover {
+          background: $blue;
+          color: #fff;
+        }
+      }
+    }
+
+    .home a {
+      text-indent: -99999em;
+      height: 60px;
+      width: 60px;
+    }
+
+    li.current_page_item.home:after,
+    li.current_page_item.tickets:after {
+      display: none;
+    }
+  }
+
+
+  .main-navigation {
+    max-width: 100% !important;
+  }
+
+  .site-content {
+    min-height: 720px;
+  }
+
+  #main {
+  	background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/date_time.png);
+  	background-position: center top;
+  	background-repeat: repeat-x;
+  	background-size: auto 52px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 65px;
+  }
+
+  // Sponsor logos
+  #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+		box-sizing: border-box;
+  }
+
+  // Champion level
+  #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-champion .sponsor-logo {
+    width: 33%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  // Accomplise level
+  #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-accomplice .sponsor-logo {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+	
+	#secondary .wcb_widget_sponsors .sponsor-level.small-business-sponsor .sponsor-logo {
+		min-height: 100px;
+  }
+	
+	// In-Kind level
+	#secondary .wcb_widget_sponsors .sponsor-level.in-kind-sponsor .sponsor-logo {
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+		min-height: 174px;
+  }
+}
+
+// Mobile Changes
+@media screen and (max-width: 643px) {
+  header#masthead {
+    margin-top: 0;
+  }
+
+  .navbar {
+    background-color: $red;
+    color: #FFF !important;
+
+    .nav-menu li a,
+    .nav-menu li > ul a {
+      color: #FFF;
+    }
+
+    .nav-menu .sub-menu, .nav-menu .children {
+      border: none;
+    }
+  }
+  .toggled-on .nav-menu li a:hover, .toggled-on .nav-menu ul a:hover{
+	  background-color: $dark-red;
+  }
+}
+
+body.ie8,
+body.ie7{
+	#main,
+	.site-info{
+		background-image: none !important;
+	}
+	.site-description{
+		display: block !important;
+	}
+}

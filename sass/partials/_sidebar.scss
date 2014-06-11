@@ -1,0 +1,212 @@
+.widget {
+  background-color: $biege;
+}
+
+#secondary {
+	display: block;
+	position: relative;
+	clear: both;
+  .widget-area {
+/*     height: auto !important; */
+  }
+
+  .wcb_widget_sponsors {
+    width: 100%;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+
+    h3.widget-title {
+      font-style: normal;
+      font-weight: 400;
+      color: #A79878;
+      font-size: 28px;
+    }
+
+    .sponsor-level {
+      .sponsor-level-title {
+        font-weight: 300;
+        color: #BDB29A;
+        margin-bottom: 0;
+
+        &:after {
+          content: "";
+          display: block;
+          background: #E4DED2;
+          height: 2px;
+          width: 100%;
+        }
+      }
+
+      .sponsor-logo {
+        margin: 40px 0;
+        -webkit-transition: all 200ms ease-in-out;
+           -moz-transition: all 200ms ease-in-out;
+            -ms-transition: all 200ms ease-in-out;
+             -o-transition: all 200ms ease-in-out;
+                transition: all 200ms ease-in-out;
+
+        &:hover {
+          /* opacity: .7; */
+        }
+      }
+    }
+  }
+}
+
+.wcorg-mailchimp input {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+#text-4 img {
+  /*
+width: 100%;
+  max-width: 98px;
+  margin: 15px;
+*/
+
+  &:hover {
+    /* opacity: .7; */
+  }
+}
+
+.site-main .sidebar-container {
+	top: 0;
+	position: relative;
+	background: #fff;
+	.widget-area{
+		float: none;
+		width: auto;
+		.widget{
+			float: none;
+			@media (min-width: 768px)  { 
+				float: left;
+			}
+			h3.widget-title{
+				@extend .brandon-bld;
+				color: #333;
+				font-size: 18px;
+				text-transform: uppercase;
+				font-style: normal;
+			}
+			&.jetpack_subscription_widget,
+			&.widget_text{
+				width: 100%;
+				@media (min-width: 768px)  { 
+					width: 45%;
+					margin: 20px 2.5%;
+					box-sizing: border-box;
+					min-height: 240px;
+				}
+				
+			}
+			&.widget_text.wcb_widget_sponsors,
+			&.wcb_widget_sponsors{
+				display: block;
+				float: none;
+				width: 100%;
+				background: #fff;
+				text-align: center;
+				.sponsor-level{
+					clear: both;
+					display: block;
+					&.venue-sponsor{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 300px;
+							}
+						}
+					}
+					&.wordcamp-pillar{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 300px;
+							}
+						}
+					}
+					&.wordcamp-champion{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 300px;
+							}
+						}
+					}
+					&.wordcamp-accomplice{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 250px;
+							}
+						}
+					}
+					&.gold-sponsor{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 200px;
+							}
+						}
+					}
+					&.bronze-sponsor{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 150px;
+							}
+						}
+					}
+					&.small-business-sponsor{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 125px;
+							}
+						}
+					}
+					&.in-kind-sponsor{
+						a.sponsor-logo{
+							img{
+								width:100%;
+								max-width: 100px;
+							}
+						}
+					}
+					
+					a.sponsor-logo{
+						display: inline-block;
+						padding: 20px;
+						img{
+        -webkit-transition: all 1s ease-in-out;
+           -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+             -o-transition: all 1s ease-in-out;
+                transition: all 1s ease-in-out;
+							-webkit-filter: grayscale(100%);
+							-moz-filter: grayscale(100%);
+							filter: grayscale(100%);
+							/*  -webkit-filter: sepia(100%); */
+						}
+					
+					&:hover {
+						img{
+							-webkit-filter: grayscale(0%);
+						}
+					}
+					}
+					h4.sponsor-level-title{
+						color: $red;
+						font-size: 12px;
+						@extend .brandon-bld;
+						text-transform: uppercase;
+					}
+				}
+				
+			}
+		}
+	}
+}
