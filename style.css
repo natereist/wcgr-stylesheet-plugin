@@ -323,7 +323,7 @@ h3 {
 
 /* line 348, sass/style.scss */
 .hentry {
-  padding: 60px 0;
+  padding: 60px 10px;
 }
 
 /* line 354, sass/style.scss */
@@ -454,53 +454,71 @@ footer.site-footer a {
   color: #FFF;
 }
 
+@media screen and (min-width: 501px) and (max-width: 644px) {
+  /* line 474, sass/style.scss */
+  .site-info {
+    background: #0099bd;
+    background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png) !important;
+    background-size: 500px !important;
+    background-repeat: no-repeat !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 483, sass/style.scss */
+  .site-info {
+    background: #0099bd;
+    background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+  }
+}
 @media screen and (min-width: 1203px) {
-  /* line 478, sass/style.scss */
+  /* line 499, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 20px;
     font-size: 14px;
   }
 }
 @media screen and (min-width: 1044px) and (max-width: 1202px) {
-  /* line 485, sass/style.scss */
+  /* line 506, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 15px;
     font-size: 13px;
   }
 }
 @media screen and (min-width: 644px) and (max-width: 1043px) {
-  /* line 492, sass/style.scss */
+  /* line 513, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 10px;
     font-size: 12px;
   }
 
-  /* line 497, sass/style.scss */
+  /* line 518, sass/style.scss */
   .site-info,
   #main {
     background-size: 100% auto !important;
   }
 }
 @media screen and (min-width: 644px) {
-  /* line 505, sass/style.scss */
+  /* line 526, sass/style.scss */
   .home .site-header .home-link {
     padding-top: 60px;
     min-height: 480px;
   }
-  /* line 509, sass/style.scss */
+  /* line 530, sass/style.scss */
   .home .site-header .home-link .site-title {
     height: 250px;
     width: 371px;
     background-size: auto;
   }
-  /* line 515, sass/style.scss */
+  /* line 536, sass/style.scss */
   .home .site-header .home-link .site-description {
     top: 50px;
     font-size: 18px;
     color: #fff;
   }
 
-  /* line 524, sass/style.scss */
+  /* line 545, sass/style.scss */
   #navbar {
     position: fixed;
     top: 0;
@@ -509,19 +527,19 @@ footer.site-footer a {
     background: #d8493c;
     z-index: 10000;
   }
-  /* line 532, sass/style.scss */
+  /* line 553, sass/style.scss */
   #navbar .nav-menu {
     padding: 0;
     text-align: center;
   }
-  /* line 539, sass/style.scss */
+  /* line 560, sass/style.scss */
   #navbar .nav-menu .current_page_item > a,
   #navbar .nav-menu .current_page_ancestor > a,
   #navbar .nav-menu .current-menu-item > a,
   #navbar .nav-menu .current-menu-ancestor > a {
     font-style: normal;
   }
-  /* line 543, sass/style.scss */
+  /* line 564, sass/style.scss */
   #navbar .nav-menu li a {
     line-height: 60px;
     color: #FFF;
@@ -530,28 +548,28 @@ footer.site-footer a {
     letter-spacing: 1.5pt;
     /* @extend .transition; */
   }
-  /* line 552, sass/style.scss */
+  /* line 573, sass/style.scss */
   #navbar .nav-menu li:hover > a {
     background: transparent;
   }
-  /* line 556, sass/style.scss */
+  /* line 577, sass/style.scss */
   #navbar .nav-menu li a:hover {
     background: #d8493c;
     color: #76261e;
   }
-  /* line 562, sass/style.scss */
+  /* line 583, sass/style.scss */
   #navbar .nav-menu .sub-menu,
   #navbar .nav-menu .children {
     border: none;
     left: 0;
     /* background-color: $dark-red; */
   }
-  /* line 567, sass/style.scss */
+  /* line 588, sass/style.scss */
   #navbar .nav-menu .sub-menu li,
   #navbar .nav-menu .children li {
     width: 100%;
   }
-  /* line 570, sass/style.scss */
+  /* line 591, sass/style.scss */
   #navbar .nav-menu .sub-menu li a,
   #navbar .nav-menu .children li a {
     line-height: 24px;
@@ -561,7 +579,7 @@ footer.site-footer a {
     width: 100%;
     min-width: 150px;
   }
-  /* line 586, sass/style.scss */
+  /* line 607, sass/style.scss */
   #navbar li.current_page_item:after,
   #navbar li.current-menu-ancestor:after,
   #navbar li.current-menu-parent:after,
@@ -575,45 +593,46 @@ footer.site-footer a {
     position: absolute;
     bottom: 0px;
   }
-  /* line 596, sass/style.scss */
+  /* line 617, sass/style.scss */
   #navbar li.tickets {
     float: right;
     margin-right: 10px;
   }
-  /* line 599, sass/style.scss */
+  /* line 620, sass/style.scss */
   #navbar li.tickets a {
     background: #76261e;
     color: #fff;
     /* @extend .transition; */
   }
-  /* line 604, sass/style.scss */
+  /* line 625, sass/style.scss */
   #navbar li.tickets a:hover {
     background: #0099bd;
     color: #fff;
   }
-  /* line 611, sass/style.scss */
+  /* line 632, sass/style.scss */
   #navbar .home a {
     text-indent: -99999em;
     height: 60px;
     width: 60px;
   }
-  /* line 618, sass/style.scss */
+  /* line 639, sass/style.scss */
   #navbar li.current_page_item.home:after,
   #navbar li.current_page_item.tickets:after {
     display: none;
   }
 
-  /* line 624, sass/style.scss */
+  /* line 645, sass/style.scss */
   .main-navigation {
     max-width: 100% !important;
   }
 
-  /* line 628, sass/style.scss */
+  /* line 649, sass/style.scss */
   .site-content {
     min-height: 720px;
   }
 
-  /* line 632, sass/style.scss */
+  /*!main*/
+  /* line 654, sass/style.scss */
   #main {
     background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/date_time.png);
     background-position: center top;
@@ -624,7 +643,7 @@ footer.site-footer a {
     padding-top: 65px;
   }
 
-  /* line 643, sass/style.scss */
+  /* line 666, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
     width: 50%;
     display: block;
@@ -633,26 +652,26 @@ footer.site-footer a {
     box-sizing: border-box;
   }
 
-  /* line 653, sass/style.scss */
+  /* line 676, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-champion .sponsor-logo {
     width: 33%;
     padding: 15px;
     box-sizing: border-box;
   }
 
-  /* line 660, sass/style.scss */
+  /* line 683, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-accomplice .sponsor-logo {
     width: 25%;
     padding: 10px;
     box-sizing: border-box;
   }
 
-  /* line 666, sass/style.scss */
+  /* line 689, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.small-business-sponsor .sponsor-logo {
     min-height: 100px;
   }
 
-  /* line 671, sass/style.scss */
+  /* line 694, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.in-kind-sponsor .sponsor-logo {
     width: 33%;
     padding: 10px;
@@ -661,45 +680,45 @@ footer.site-footer a {
   }
 }
 @media screen and (max-width: 643px) {
-  /* line 681, sass/style.scss */
+  /* line 704, sass/style.scss */
   header#masthead {
     margin-top: 0;
   }
 
-  /* line 685, sass/style.scss */
+  /* line 708, sass/style.scss */
   .navbar {
     background-color: #d8493c;
     color: #FFF !important;
   }
-  /* line 690, sass/style.scss */
+  /* line 713, sass/style.scss */
   .navbar .nav-menu li a,
   .navbar .nav-menu li > ul a {
     color: #FFF;
   }
-  /* line 695, sass/style.scss */
+  /* line 718, sass/style.scss */
   .navbar .nav-menu .sub-menu, .navbar .nav-menu .children {
     border: none;
   }
 
-  /* line 699, sass/style.scss */
+  /* line 722, sass/style.scss */
   .toggled-on .nav-menu li a:hover, .toggled-on .nav-menu ul a:hover {
     background-color: #76261e;
   }
 }
-/* line 708, sass/style.scss */
+/* line 731, sass/style.scss */
 body.ie8 #main,
 body.ie8 .site-info,
 body.ie7 #main,
 body.ie7 .site-info {
   background-image: none !important;
 }
-/* line 711, sass/style.scss */
+/* line 734, sass/style.scss */
 body.ie8 .site-description,
 body.ie7 .site-description {
   display: block !important;
 }
 
-/* line 723, sass/style.scss */
+/* line 746, sass/style.scss */
 .entry-content,
 .site-content article,
 body,
@@ -711,39 +730,39 @@ p,
   hyphens: none !important;
 }
 
-/* line 731, sass/style.scss */
+/* line 754, sass/style.scss */
 .tix-column-remaining {
   display: none;
 }
 
-/* line 736, sass/style.scss */
+/* line 759, sass/style.scss */
 #tix-attendees li {
   height: 120px;
 }
 
-/* line 760, sass/style.scss */
+/* line 783, sass/style.scss */
 .wcpt-schedule td {
   vertical-align: top;
 }
-/* line 763, sass/style.scss */
+/* line 786, sass/style.scss */
 .wcpt-schedule .wcpt-track-name {
   display: block;
 }
-/* line 766, sass/style.scss */
+/* line 789, sass/style.scss */
 .wcpt-schedule .wcpt-session-title {
   display: block;
 }
-/* line 770, sass/style.scss */
+/* line 793, sass/style.scss */
 .wcpt-schedule .wcpt-session-speakers a {
   color: #21759b;
 }
 
-/* line 785, sass/style.scss */
+/* line 808, sass/style.scss */
 body.page-id-1 .sidebar-container {
   display: none;
 }
 
-/* line 793, sass/style.scss */
+/* line 816, sass/style.scss */
 #post-1 .entry-header,
 #post-1 .entry-content,
 #post-1 .entry-summary,
@@ -751,63 +770,63 @@ body.page-id-1 .sidebar-container {
   padding-right: 30px;
   padding-left: 30px;
 }
-/* line 798, sass/style.scss */
+/* line 821, sass/style.scss */
 #post-1 .color-key {
   margin-bottom: 20px;
   clear: both;
 }
-/* line 802, sass/style.scss */
+/* line 825, sass/style.scss */
 #post-1 .color-key > div {
   padding: 5px;
   color: #fff;
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
 }
-/* line 809, sass/style.scss */
+/* line 832, sass/style.scss */
 #post-1 .color-key .key-designer {
   background: #278374;
 }
-/* line 812, sass/style.scss */
+/* line 835, sass/style.scss */
 #post-1 .color-key .key-user-content {
   background: #24799e;
 }
-/* line 815, sass/style.scss */
+/* line 838, sass/style.scss */
 #post-1 .color-key .key-beginner {
   background: #ec5b2f;
 }
-/* line 818, sass/style.scss */
+/* line 841, sass/style.scss */
 #post-1 .color-key .key-developer {
   background: #ae4395;
 }
-/* line 821, sass/style.scss */
+/* line 844, sass/style.scss */
 #post-1 .color-key .key-everyone {
   background: #832f3f;
 }
-/* line 824, sass/style.scss */
+/* line 847, sass/style.scss */
 #post-1 .color-key .key-break {
   background: #797979;
 }
-/* line 830, sass/style.scss */
+/* line 853, sass/style.scss */
 #post-1 .wcpt-schedule td {
   vertical-align: top;
 }
-/* line 835, sass/style.scss */
+/* line 858, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-beginner {
   background: #ec5b2f;
 }
-/* line 838, sass/style.scss */
+/* line 861, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-usercontent {
   background: #24799e;
 }
-/* line 841, sass/style.scss */
+/* line 864, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-designer {
   background: #278374;
 }
-/* line 844, sass/style.scss */
+/* line 867, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-developer {
   background: #ae4395;
 }
-/* line 847, sass/style.scss */
+/* line 870, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-session-building-better-websites-through-collaboration-communication-and-consistency {
   background: #278374;
   /* Old browsers */
@@ -826,72 +845,72 @@ body.page-id-1 .sidebar-container {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#278374', endColorstr='#ae4395',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
-/* line 857, sass/style.scss */
+/* line 880, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-room-1.wcb-track-room-2.wcb-track-room-3.wcb-track-room-4 {
   background: #797979;
 }
-/* line 860, sass/style.scss */
+/* line 883, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-custom.wcb-track-room-1 {
   background: #832f3f;
 }
-/* line 865, sass/style.scss */
+/* line 888, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-custom,
 #post-1 .wcpt-schedule .wcpt-session-type-session {
   padding-left: 10px;
 }
-/* line 868, sass/style.scss */
+/* line 891, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-track-name {
   display: block;
 }
-/* line 871, sass/style.scss */
+/* line 894, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-title {
   color: #fff;
   line-height: 1.5;
   font-weight: bold;
 }
-/* line 876, sass/style.scss */
+/* line 899, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-title {
   display: block;
 }
-/* line 879, sass/style.scss */
+/* line 902, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers {
   font-style: italic;
 }
-/* line 881, sass/style.scss */
+/* line 904, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers a {
   color: #DCDCDC;
 }
-/* line 884, sass/style.scss */
+/* line 907, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers a:before {
   content: '- ';
 }
-/* line 888, sass/style.scss */
+/* line 911, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers:before {
   display: none;
 }
-/* line 892, sass/style.scss */
+/* line 915, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-session:before {
   color: #fff;
 }
-/* line 896, sass/style.scss */
+/* line 919, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-empty {
   display: none;
 }
 
 @media all and (min-width: 500px) {
-  /* line 902, sass/style.scss */
+  /* line 925, sass/style.scss */
   #post-1 .color-key > div {
     float: left;
     width: 50%;
   }
 
-  /* line 906, sass/style.scss */
+  /* line 929, sass/style.scss */
   #post-1 .wcpt-schedule td {
     border-right: 1px solid #fff;
   }
 }
 /*Remove default padding on the 2013 theme.*/
-/* line 917, sass/style.scss */
+/* line 940, sass/style.scss */
 .sidebar .entry-header,
 .sidebar .entry-content,
 .sidebar .entry-summary,
@@ -899,4 +918,24 @@ body.page-id-1 .sidebar-container {
   max-width: 604px !important;
   /* padding: 0 376px 0 60px; */
   padding: 0px 0px 0px 0px !important;
+}
+
+@media screen and (min-width: 501px) and (max-width: 644px) {
+  /* line 947, sass/style.scss */
+  #main {
+    background: white;
+    background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 958, sass/style.scss */
+  #main {
+    background: white;
+    background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 }

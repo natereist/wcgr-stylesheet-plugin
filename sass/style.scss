@@ -470,6 +470,27 @@ footer.site-footer {
     color: #FFF;
   }
 }
+@media screen and (min-width: 501px) and (max-width: 644px){
+	.site-info {
+		background: $blue;
+		background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png)!important;
+		background-size: 500px!important;
+		background-repeat: no-repeat!important;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.site-info {
+		background: $blue;
+		background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png)!important;
+		background-size: 100%!important;
+		background-repeat: no-repeat!important;
+	}
+}
+
+
+
+
 
 //!@import "partials/_responsive";
 
@@ -628,7 +649,8 @@ footer.site-footer {
   .site-content {
     min-height: 720px;
   }
-
+  
+  /*!main*/
   #main {
   	background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/date_time.png);
   	background-position: center top;
@@ -638,6 +660,7 @@ footer.site-footer {
     margin: 0 auto;
     padding-top: 65px;
   }
+  
 
   // Sponsor logos
   #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
@@ -918,5 +941,25 @@ body.page-id-1 {
 	max-width: 604px!important;
 	/* padding: 0 376px 0 60px; */
 	padding: 0px 0px 0px 0px!important;
+}
+
+@media screen and (min-width: 501px) and (max-width: 644px){
+	#main {
+		background: white;
+		background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png)!important;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding-top: 30px;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	#main {
+		background: white;
+		background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/dates_times_mobile_web.png)!important;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
 }
 
