@@ -63,17 +63,17 @@ body {
   background: #FFF;
 }
 
-/* line 1, sass/partials/_header.scss */
+/* line 73, sass/style.scss */
 .search-form {
   display: none;
 }
 
-/* line 6, sass/partials/_header.scss */
+/* line 78, sass/style.scss */
 .site-header .home-link {
   min-height: 230px;
   padding-top: 20px;
 }
-/* line 10, sass/partials/_header.scss */
+/* line 82, sass/style.scss */
 .site-header .home-link .site-title {
   background: url(http://2014.grandrapids.wordcamp.org/files/2014/06/logo.png) no-repeat center top;
   height: 200px;
@@ -82,7 +82,7 @@ body {
   margin: 0 auto;
   text-indent: -9999em;
 }
-/* line 19, sass/partials/_header.scss */
+/* line 91, sass/style.scss */
 .site-header .home-link .site-description {
   top: 10px;
   text-align: center;
@@ -97,48 +97,48 @@ body {
   display: none;
 }
 
-/* line 35, sass/partials/_header.scss */
+/* line 107, sass/style.scss */
 header#masthead {
   background: none;
   margin-top: 60px;
 }
 
-/* line 1, sass/partials/_sidebar.scss */
+/* line 113, sass/style.scss */
 .widget {
   background-color: #f8f7ed;
 }
 
-/* line 5, sass/partials/_sidebar.scss */
+/* line 117, sass/style.scss */
 #secondary {
   display: block;
   position: relative;
   clear: both;
 }
-/* line 9, sass/partials/_sidebar.scss */
+/* line 121, sass/style.scss */
 #secondary .widget-area {
   /*     height: auto !important; */
 }
-/* line 13, sass/partials/_sidebar.scss */
+/* line 125, sass/style.scss */
 #secondary .wcb_widget_sponsors {
   width: 100%;
   position: relative !important;
   top: auto !important;
   left: auto !important;
 }
-/* line 19, sass/partials/_sidebar.scss */
+/* line 131, sass/style.scss */
 #secondary .wcb_widget_sponsors h3.widget-title {
   font-style: normal;
   font-weight: 400;
   color: #A79878;
   font-size: 28px;
 }
-/* line 27, sass/partials/_sidebar.scss */
+/* line 139, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-level-title {
   font-weight: 300;
   color: #BDB29A;
   margin-bottom: 0;
 }
-/* line 32, sass/partials/_sidebar.scss */
+/* line 144, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-level-title:after {
   content: "";
   display: block;
@@ -146,28 +146,28 @@ header#masthead {
   height: 2px;
   width: 100%;
 }
-/* line 41, sass/partials/_sidebar.scss */
+/* line 153, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
   margin: 40px 0;
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
-/* line 49, sass/partials/_sidebar.scss */
+/* line 161, sass/style.scss */
 #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo:hover {
   /* opacity: .7; */
 }
 
-/* line 57, sass/partials/_sidebar.scss */
+/* line 169, sass/style.scss */
 .wcorg-mailchimp input {
   width: 100%;
   height: 48px;
   margin-bottom: 20px;
 }
 
-/* line 63, sass/partials/_sidebar.scss */
+/* line 175, sass/style.scss */
 #text-4 img {
   /*
 width: 100%;
@@ -175,45 +175,45 @@ width: 100%;
   margin: 15px;
 */
 }
-/* line 70, sass/partials/_sidebar.scss */
+/* line 182, sass/style.scss */
 #text-4 img:hover {
   /* opacity: .7; */
 }
 
-/* line 75, sass/partials/_sidebar.scss */
+/* line 187, sass/style.scss */
 .site-main .sidebar-container {
   top: 0;
   position: relative;
   background: #fff;
 }
-/* line 79, sass/partials/_sidebar.scss */
+/* line 191, sass/style.scss */
 .site-main .sidebar-container .widget-area {
   float: none;
   width: auto;
 }
-/* line 82, sass/partials/_sidebar.scss */
+/* line 194, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget {
   float: none;
 }
 @media (min-width: 768px) {
-  /* line 82, sass/partials/_sidebar.scss */
+  /* line 194, sass/style.scss */
   .site-main .sidebar-container .widget-area .widget {
     float: left;
   }
 }
-/* line 87, sass/partials/_sidebar.scss */
+/* line 199, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget h3.widget-title {
   color: #333;
   font-size: 18px;
   text-transform: uppercase;
   font-style: normal;
 }
-/* line 95, sass/partials/_sidebar.scss */
+/* line 207, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.jetpack_subscription_widget, .site-main .sidebar-container .widget-area .widget.widget_text {
   width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 95, sass/partials/_sidebar.scss */
+  /* line 207, sass/style.scss */
   .site-main .sidebar-container .widget-area .widget.jetpack_subscription_widget, .site-main .sidebar-container .widget-area .widget.widget_text {
     width: 45%;
     margin: 20px 2.5%;
@@ -221,7 +221,7 @@ width: 100%;
     min-height: 240px;
   }
 }
-/* line 106, sass/partials/_sidebar.scss */
+/* line 218, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors {
   display: block;
   float: none;
@@ -229,133 +229,135 @@ width: 100%;
   background: #fff;
   text-align: center;
 }
-/* line 112, sass/partials/_sidebar.scss */
+/* line 224, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level {
   clear: both;
   display: block;
 }
-/* line 117, sass/partials/_sidebar.scss */
+/* line 229, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.venue-sponsor a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.venue-sponsor a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 300px;
 }
-/* line 125, sass/partials/_sidebar.scss */
+/* line 237, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.wordcamp-pillar a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.wordcamp-pillar a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 300px;
 }
-/* line 133, sass/partials/_sidebar.scss */
+/* line 245, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.wordcamp-champion a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.wordcamp-champion a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 300px;
 }
-/* line 141, sass/partials/_sidebar.scss */
+/* line 253, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.wordcamp-accomplice a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.wordcamp-accomplice a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 250px;
 }
-/* line 149, sass/partials/_sidebar.scss */
+/* line 261, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.gold-sponsor a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.gold-sponsor a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 200px;
 }
-/* line 157, sass/partials/_sidebar.scss */
+/* line 269, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.bronze-sponsor a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.bronze-sponsor a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 150px;
 }
-/* line 165, sass/partials/_sidebar.scss */
+/* line 277, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.small-business-sponsor a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.small-business-sponsor a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 125px;
 }
-/* line 173, sass/partials/_sidebar.scss */
+/* line 285, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level.in-kind-sponsor a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level.in-kind-sponsor a.sponsor-logo img {
-  width: 100%;
+  width: 78%;
   max-width: 100px;
 }
-/* line 180, sass/partials/_sidebar.scss */
+/* line 292, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level a.sponsor-logo, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level a.sponsor-logo {
   display: inline-block;
   padding: 20px;
 }
-/* line 183, sass/partials/_sidebar.scss */
+/* line 295, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level a.sponsor-logo img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level a.sponsor-logo img {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  width: 78%;
+  height: auto;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
   /*  -webkit-filter: sepia(100%); */
 }
-/* line 196, sass/partials/_sidebar.scss */
+/* line 311, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level a.sponsor-logo:hover img, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level a.sponsor-logo:hover img {
   -webkit-filter: grayscale(0%);
 }
-/* line 201, sass/partials/_sidebar.scss */
+/* line 316, sass/style.scss */
 .site-main .sidebar-container .widget-area .widget.widget_text.wcb_widget_sponsors .sponsor-level h4.sponsor-level-title, .site-main .sidebar-container .widget-area .widget.wcb_widget_sponsors .sponsor-level h4.sponsor-level-title {
   color: #d8493c;
   font-size: 12px;
   text-transform: uppercase;
 }
 
-/* line 6, sass/partials/_formatting.scss */
+/* line 335, sass/style.scss */
 h1 {
   text-transform: uppercase;
   font-size: 24px;
   color: #333333;
 }
 
-/* line 11, sass/partials/_formatting.scss */
+/* line 340, sass/style.scss */
 h4, h5, p, li, input, textarea {
   font-family: "Brandon Grot W01 Light", sans-serif;
 }
 
-/* line 15, sass/partials/_formatting.scss */
+/* line 344, sass/style.scss */
 h3 {
   font-weight: 600;
 }
 
-/* line 19, sass/partials/_formatting.scss */
+/* line 348, sass/style.scss */
 .hentry {
   padding: 60px 0;
 }
 
-/* line 25, sass/partials/_formatting.scss */
+/* line 354, sass/style.scss */
 .entry-title {
   font-size: 32px;
   font-weight: 300;
   line-height: 42px;
   text-transform: uppercase;
 }
-/* line 31, sass/partials/_formatting.scss */
+/* line 360, sass/style.scss */
 .entry-title a {
   color: inherit;
 }
-/* line 33, sass/partials/_formatting.scss */
+/* line 362, sass/style.scss */
 .entry-title a:hover {
   color: #0099bd;
 }
 
-/* line 39, sass/partials/_formatting.scss */
+/* line 368, sass/style.scss */
 .entry-meta {
   text-transform: uppercase;
   color: #000;
   font-size: 12px;
 }
-/* line 44, sass/partials/_formatting.scss */
+/* line 373, sass/style.scss */
 .entry-meta *:before {
   color: #000;
 }
-/* line 47, sass/partials/_formatting.scss */
+/* line 376, sass/style.scss */
 .entry-meta .date a:before {
   content: '\f307';
 }
 
-/* line 52, sass/partials/_formatting.scss */
+/* line 381, sass/style.scss */
 .entry-content {
   font-family: "Brandon Grot W01 Light", sans-serif;
   font-weight: 300;
@@ -363,7 +365,7 @@ h3 {
   line-height: 32px;
 }
 
-/* line 64, sass/partials/_formatting.scss */
+/* line 393, sass/style.scss */
 button,
 input[type="submit"],
 input[type="button"],
@@ -378,7 +380,7 @@ input[type="reset"] {
   font-size: 16px;
   letter-spacing: 1.5pt;
 }
-/* line 76, sass/partials/_formatting.scss */
+/* line 405, sass/style.scss */
 button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
@@ -387,7 +389,7 @@ input[type="reset"]:hover {
   color: #fff;
 }
 
-/* line 82, sass/partials/_formatting.scss */
+/* line 411, sass/style.scss */
 a.button, .widget a.button {
   display: block;
   height: 48px;
@@ -400,20 +402,20 @@ a.button, .widget a.button {
   font-size: 16px;
   letter-spacing: 1.5pt;
 }
-/* line 95, sass/partials/_formatting.scss */
+/* line 424, sass/style.scss */
 a.button:hover, .widget a.button:hover {
   background: #b7cf17;
   color: #203f37;
   text-decoration: none;
 }
 
-/* line 101, sass/partials/_formatting.scss */
+/* line 430, sass/style.scss */
 a.button {
   display: inline-block;
   padding: 0 10px;
 }
 
-/* line 1, sass/partials/_footer.scss */
+/* line 436, sass/style.scss */
 footer.site-footer {
   background: #fff;
   text-align: center !important;
@@ -423,17 +425,17 @@ footer.site-footer {
   letter-spacing: 1.5pt;
   /* padding-top: 200px; */
 }
-/* line 11, sass/partials/_footer.scss */
+/* line 446, sass/style.scss */
 footer.site-footer #secondary {
   background: #fff;
   border-top: none;
 }
-/* line 16, sass/partials/_footer.scss */
+/* line 451, sass/style.scss */
 footer.site-footer .textwidget,
 footer.site-footer .widget-title, footer.site-footer .widget-title a, footer.site-footer .wp-caption-text {
   color: #000;
 }
-/* line 20, sass/partials/_footer.scss */
+/* line 455, sass/style.scss */
 footer.site-footer .site-info {
   padding: 10px 0;
   background: #0099bd;
@@ -447,58 +449,58 @@ footer.site-footer .site-info {
   padding-top: 65px;
   margin-bottom: 20px;
 }
-/* line 34, sass/partials/_footer.scss */
+/* line 469, sass/style.scss */
 footer.site-footer a {
   color: #FFF;
 }
 
 @media screen and (min-width: 1203px) {
-  /* line 4, sass/partials/_responsive.scss */
+  /* line 478, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 20px;
     font-size: 14px;
   }
 }
 @media screen and (min-width: 1044px) and (max-width: 1202px) {
-  /* line 11, sass/partials/_responsive.scss */
+  /* line 485, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 15px;
     font-size: 13px;
   }
 }
 @media screen and (min-width: 644px) and (max-width: 1043px) {
-  /* line 18, sass/partials/_responsive.scss */
+  /* line 492, sass/style.scss */
   .navbar .nav-menu li a {
     padding: 0 10px;
     font-size: 12px;
   }
 
-  /* line 23, sass/partials/_responsive.scss */
+  /* line 497, sass/style.scss */
   .site-info,
   #main {
     background-size: 100% auto !important;
   }
 }
 @media screen and (min-width: 644px) {
-  /* line 31, sass/partials/_responsive.scss */
+  /* line 505, sass/style.scss */
   .home .site-header .home-link {
     padding-top: 60px;
     min-height: 480px;
   }
-  /* line 35, sass/partials/_responsive.scss */
+  /* line 509, sass/style.scss */
   .home .site-header .home-link .site-title {
     height: 250px;
     width: 371px;
     background-size: auto;
   }
-  /* line 41, sass/partials/_responsive.scss */
+  /* line 515, sass/style.scss */
   .home .site-header .home-link .site-description {
     top: 50px;
     font-size: 18px;
     color: #fff;
   }
 
-  /* line 50, sass/partials/_responsive.scss */
+  /* line 524, sass/style.scss */
   #navbar {
     position: fixed;
     top: 0;
@@ -507,18 +509,19 @@ footer.site-footer a {
     background: #d8493c;
     z-index: 10000;
   }
-  /* line 58, sass/partials/_responsive.scss */
+  /* line 532, sass/style.scss */
   #navbar .nav-menu {
     padding: 0;
+    text-align: center;
   }
-  /* line 64, sass/partials/_responsive.scss */
+  /* line 539, sass/style.scss */
   #navbar .nav-menu .current_page_item > a,
   #navbar .nav-menu .current_page_ancestor > a,
   #navbar .nav-menu .current-menu-item > a,
   #navbar .nav-menu .current-menu-ancestor > a {
     font-style: normal;
   }
-  /* line 68, sass/partials/_responsive.scss */
+  /* line 543, sass/style.scss */
   #navbar .nav-menu li a {
     line-height: 60px;
     color: #FFF;
@@ -527,28 +530,28 @@ footer.site-footer a {
     letter-spacing: 1.5pt;
     /* @extend .transition; */
   }
-  /* line 77, sass/partials/_responsive.scss */
+  /* line 552, sass/style.scss */
   #navbar .nav-menu li:hover > a {
     background: transparent;
   }
-  /* line 81, sass/partials/_responsive.scss */
+  /* line 556, sass/style.scss */
   #navbar .nav-menu li a:hover {
     background: #d8493c;
     color: #76261e;
   }
-  /* line 87, sass/partials/_responsive.scss */
+  /* line 562, sass/style.scss */
   #navbar .nav-menu .sub-menu,
   #navbar .nav-menu .children {
     border: none;
     left: 0;
     /* background-color: $dark-red; */
   }
-  /* line 92, sass/partials/_responsive.scss */
+  /* line 567, sass/style.scss */
   #navbar .nav-menu .sub-menu li,
   #navbar .nav-menu .children li {
     width: 100%;
   }
-  /* line 95, sass/partials/_responsive.scss */
+  /* line 570, sass/style.scss */
   #navbar .nav-menu .sub-menu li a,
   #navbar .nav-menu .children li a {
     line-height: 24px;
@@ -558,7 +561,7 @@ footer.site-footer a {
     width: 100%;
     min-width: 150px;
   }
-  /* line 111, sass/partials/_responsive.scss */
+  /* line 586, sass/style.scss */
   #navbar li.current_page_item:after,
   #navbar li.current-menu-ancestor:after,
   #navbar li.current-menu-parent:after,
@@ -572,45 +575,45 @@ footer.site-footer a {
     position: absolute;
     bottom: 0px;
   }
-  /* line 121, sass/partials/_responsive.scss */
+  /* line 596, sass/style.scss */
   #navbar li.tickets {
     float: right;
     margin-right: 10px;
   }
-  /* line 124, sass/partials/_responsive.scss */
+  /* line 599, sass/style.scss */
   #navbar li.tickets a {
     background: #76261e;
     color: #fff;
     /* @extend .transition; */
   }
-  /* line 129, sass/partials/_responsive.scss */
+  /* line 604, sass/style.scss */
   #navbar li.tickets a:hover {
     background: #0099bd;
     color: #fff;
   }
-  /* line 136, sass/partials/_responsive.scss */
+  /* line 611, sass/style.scss */
   #navbar .home a {
     text-indent: -99999em;
     height: 60px;
     width: 60px;
   }
-  /* line 143, sass/partials/_responsive.scss */
+  /* line 618, sass/style.scss */
   #navbar li.current_page_item.home:after,
   #navbar li.current_page_item.tickets:after {
     display: none;
   }
 
-  /* line 149, sass/partials/_responsive.scss */
+  /* line 624, sass/style.scss */
   .main-navigation {
     max-width: 100% !important;
   }
 
-  /* line 153, sass/partials/_responsive.scss */
+  /* line 628, sass/style.scss */
   .site-content {
     min-height: 720px;
   }
 
-  /* line 157, sass/partials/_responsive.scss */
+  /* line 632, sass/style.scss */
   #main {
     background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/date_time.png);
     background-position: center top;
@@ -621,7 +624,7 @@ footer.site-footer a {
     padding-top: 65px;
   }
 
-  /* line 168, sass/partials/_responsive.scss */
+  /* line 643, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
     width: 50%;
     display: block;
@@ -630,26 +633,26 @@ footer.site-footer a {
     box-sizing: border-box;
   }
 
-  /* line 177, sass/partials/_responsive.scss */
+  /* line 653, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-champion .sponsor-logo {
     width: 33%;
     padding: 15px;
     box-sizing: border-box;
   }
 
-  /* line 184, sass/partials/_responsive.scss */
+  /* line 660, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-accomplice .sponsor-logo {
     width: 25%;
     padding: 10px;
     box-sizing: border-box;
   }
 
-  /* line 190, sass/partials/_responsive.scss */
+  /* line 666, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.small-business-sponsor .sponsor-logo {
     min-height: 100px;
   }
 
-  /* line 195, sass/partials/_responsive.scss */
+  /* line 671, sass/style.scss */
   #secondary .wcb_widget_sponsors .sponsor-level.in-kind-sponsor .sponsor-logo {
     width: 33%;
     padding: 10px;
@@ -658,45 +661,45 @@ footer.site-footer a {
   }
 }
 @media screen and (max-width: 643px) {
-  /* line 205, sass/partials/_responsive.scss */
+  /* line 681, sass/style.scss */
   header#masthead {
     margin-top: 0;
   }
 
-  /* line 209, sass/partials/_responsive.scss */
+  /* line 685, sass/style.scss */
   .navbar {
     background-color: #d8493c;
     color: #FFF !important;
   }
-  /* line 214, sass/partials/_responsive.scss */
+  /* line 690, sass/style.scss */
   .navbar .nav-menu li a,
   .navbar .nav-menu li > ul a {
     color: #FFF;
   }
-  /* line 218, sass/partials/_responsive.scss */
+  /* line 695, sass/style.scss */
   .navbar .nav-menu .sub-menu, .navbar .nav-menu .children {
     border: none;
   }
 
-  /* line 222, sass/partials/_responsive.scss */
+  /* line 699, sass/style.scss */
   .toggled-on .nav-menu li a:hover, .toggled-on .nav-menu ul a:hover {
     background-color: #76261e;
   }
 }
-/* line 230, sass/partials/_responsive.scss */
+/* line 708, sass/style.scss */
 body.ie8 #main,
 body.ie8 .site-info,
 body.ie7 #main,
 body.ie7 .site-info {
   background-image: none !important;
 }
-/* line 233, sass/partials/_responsive.scss */
+/* line 711, sass/style.scss */
 body.ie8 .site-description,
 body.ie7 .site-description {
   display: block !important;
 }
 
-/* line 83, sass/style.scss */
+/* line 723, sass/style.scss */
 .entry-content,
 .site-content article,
 body,
@@ -708,39 +711,39 @@ p,
   hyphens: none !important;
 }
 
-/* line 91, sass/style.scss */
+/* line 731, sass/style.scss */
 .tix-column-remaining {
   display: none;
 }
 
-/* line 96, sass/style.scss */
+/* line 736, sass/style.scss */
 #tix-attendees li {
   height: 120px;
 }
 
-/* line 18, sass/partials/_schedule.scss */
+/* line 760, sass/style.scss */
 .wcpt-schedule td {
   vertical-align: top;
 }
-/* line 21, sass/partials/_schedule.scss */
+/* line 763, sass/style.scss */
 .wcpt-schedule .wcpt-track-name {
   display: block;
 }
-/* line 24, sass/partials/_schedule.scss */
+/* line 766, sass/style.scss */
 .wcpt-schedule .wcpt-session-title {
   display: block;
 }
-/* line 28, sass/partials/_schedule.scss */
+/* line 770, sass/style.scss */
 .wcpt-schedule .wcpt-session-speakers a {
   color: #21759b;
 }
 
-/* line 43, sass/partials/_schedule.scss */
+/* line 785, sass/style.scss */
 body.page-id-1 .sidebar-container {
   display: none;
 }
 
-/* line 51, sass/partials/_schedule.scss */
+/* line 793, sass/style.scss */
 #post-1 .entry-header,
 #post-1 .entry-content,
 #post-1 .entry-summary,
@@ -748,63 +751,63 @@ body.page-id-1 .sidebar-container {
   padding-right: 30px;
   padding-left: 30px;
 }
-/* line 56, sass/partials/_schedule.scss */
+/* line 798, sass/style.scss */
 #post-1 .color-key {
   margin-bottom: 20px;
   clear: both;
 }
-/* line 60, sass/partials/_schedule.scss */
+/* line 802, sass/style.scss */
 #post-1 .color-key > div {
   padding: 5px;
   color: #fff;
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
 }
-/* line 67, sass/partials/_schedule.scss */
+/* line 809, sass/style.scss */
 #post-1 .color-key .key-designer {
   background: #278374;
 }
-/* line 70, sass/partials/_schedule.scss */
+/* line 812, sass/style.scss */
 #post-1 .color-key .key-user-content {
   background: #24799e;
 }
-/* line 73, sass/partials/_schedule.scss */
+/* line 815, sass/style.scss */
 #post-1 .color-key .key-beginner {
   background: #ec5b2f;
 }
-/* line 76, sass/partials/_schedule.scss */
+/* line 818, sass/style.scss */
 #post-1 .color-key .key-developer {
   background: #ae4395;
 }
-/* line 79, sass/partials/_schedule.scss */
+/* line 821, sass/style.scss */
 #post-1 .color-key .key-everyone {
   background: #832f3f;
 }
-/* line 82, sass/partials/_schedule.scss */
+/* line 824, sass/style.scss */
 #post-1 .color-key .key-break {
   background: #797979;
 }
-/* line 88, sass/partials/_schedule.scss */
+/* line 830, sass/style.scss */
 #post-1 .wcpt-schedule td {
   vertical-align: top;
 }
-/* line 93, sass/partials/_schedule.scss */
+/* line 835, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-beginner {
   background: #ec5b2f;
 }
-/* line 96, sass/partials/_schedule.scss */
+/* line 838, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-usercontent {
   background: #24799e;
 }
-/* line 99, sass/partials/_schedule.scss */
+/* line 841, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-designer {
   background: #278374;
 }
-/* line 102, sass/partials/_schedule.scss */
+/* line 844, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-developer {
   background: #ae4395;
 }
-/* line 105, sass/partials/_schedule.scss */
+/* line 847, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-session-building-better-websites-through-collaboration-communication-and-consistency {
   background: #278374;
   /* Old browsers */
@@ -823,67 +826,77 @@ body.page-id-1 .sidebar-container {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#278374', endColorstr='#ae4395',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
-/* line 115, sass/partials/_schedule.scss */
+/* line 857, sass/style.scss */
 #post-1 .wcpt-schedule .wcb-track-room-1.wcb-track-room-2.wcb-track-room-3.wcb-track-room-4 {
   background: #797979;
 }
-/* line 118, sass/partials/_schedule.scss */
+/* line 860, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-custom.wcb-track-room-1 {
   background: #832f3f;
 }
-/* line 123, sass/partials/_schedule.scss */
+/* line 865, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-custom,
 #post-1 .wcpt-schedule .wcpt-session-type-session {
   padding-left: 10px;
 }
-/* line 126, sass/partials/_schedule.scss */
+/* line 868, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-track-name {
   display: block;
 }
-/* line 129, sass/partials/_schedule.scss */
+/* line 871, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-title {
   color: #fff;
   line-height: 1.5;
   font-weight: bold;
 }
-/* line 134, sass/partials/_schedule.scss */
+/* line 876, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-title {
   display: block;
 }
-/* line 137, sass/partials/_schedule.scss */
+/* line 879, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers {
   font-style: italic;
 }
-/* line 139, sass/partials/_schedule.scss */
+/* line 881, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers a {
   color: #DCDCDC;
 }
-/* line 142, sass/partials/_schedule.scss */
+/* line 884, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers a:before {
   content: '- ';
 }
-/* line 146, sass/partials/_schedule.scss */
+/* line 888, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-speakers:before {
   display: none;
 }
-/* line 150, sass/partials/_schedule.scss */
+/* line 892, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-type-session:before {
   color: #fff;
 }
-/* line 154, sass/partials/_schedule.scss */
+/* line 896, sass/style.scss */
 #post-1 .wcpt-schedule .wcpt-session-empty {
   display: none;
 }
 
 @media all and (min-width: 500px) {
-  /* line 160, sass/partials/_schedule.scss */
+  /* line 902, sass/style.scss */
   #post-1 .color-key > div {
     float: left;
     width: 50%;
   }
 
-  /* line 164, sass/partials/_schedule.scss */
+  /* line 906, sass/style.scss */
   #post-1 .wcpt-schedule td {
     border-right: 1px solid #fff;
   }
+}
+/*Remove default padding on the 2013 theme.*/
+/* line 917, sass/style.scss */
+.sidebar .entry-header,
+.sidebar .entry-content,
+.sidebar .entry-summary,
+.sidebar .entry-meta {
+  max-width: 604px !important;
+  /* padding: 0 376px 0 60px; */
+  padding: 0px 0px 0px 0px !important;
 }

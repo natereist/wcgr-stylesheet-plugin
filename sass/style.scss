@@ -69,11 +69,651 @@ body {
   background: #FFF;
 }
 
-@import "partials/_header";
-@import "partials/_sidebar";
-@import "partials/_formatting";
-@import "partials/_footer";
-@import "partials/_responsive";
+//!@import "partials/_header";
+.search-form {
+  display: none;
+}
+
+.site-header {
+  .home-link {
+    min-height: 230px;
+    padding-top: 20px;
+
+    .site-title {
+      background: url(http://2014.grandrapids.wordcamp.org/files/2014/06/logo.png) no-repeat center top;
+      height: 200px;
+      width: 296px;
+      background-size: 296px 200px;
+      margin: 0 auto;
+      text-indent: -9999em;
+    }
+
+    .site-description {
+      top: 10px;
+      text-align: center;
+      position: relative;
+      font-style: normal;
+      color: #fff;
+      font-family: $body-font;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.5pt;
+      font-weight: 600;
+      display: none;
+    }
+  }
+}
+
+header#masthead {
+  background: none;
+  margin-top: 60px;
+}
+
+//!@import "partials/_sidebar";
+.widget {
+  background-color: $biege;
+}
+
+#secondary {
+	display: block;
+	position: relative;
+	clear: both;
+  .widget-area {
+/*     height: auto !important; */
+  }
+
+  .wcb_widget_sponsors {
+    width: 100%;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+
+    h3.widget-title {
+      font-style: normal;
+      font-weight: 400;
+      color: #A79878;
+      font-size: 28px;
+    }
+
+    .sponsor-level {
+      .sponsor-level-title {
+        font-weight: 300;
+        color: #BDB29A;
+        margin-bottom: 0;
+
+        &:after {
+          content: "";
+          display: block;
+          background: #E4DED2;
+          height: 2px;
+          width: 100%;
+        }
+      }
+
+      .sponsor-logo {
+        margin: 40px 0;
+        -webkit-transition: all 100ms ease-in-out;
+           -moz-transition: all 100ms ease-in-out;
+            -ms-transition: all 100ms ease-in-out;
+             -o-transition: all 100ms ease-in-out;
+                transition: all 100ms ease-in-out;
+
+        &:hover {
+          /* opacity: .7; */
+        }
+      }
+    }
+  }
+}
+
+.wcorg-mailchimp input {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+#text-4 img {
+  /*
+width: 100%;
+  max-width: 98px;
+  margin: 15px;
+*/
+
+  &:hover {
+    /* opacity: .7; */
+  }
+}
+
+.site-main .sidebar-container {
+	top: 0;
+	position: relative;
+	background: #fff;
+	.widget-area{
+		float: none;
+		width: auto;
+		.widget{
+			float: none;
+			@media (min-width: 768px)  { 
+				float: left;
+			}
+			h3.widget-title{
+				@extend .brandon-bld;
+				color: #333;
+				font-size: 18px;
+				text-transform: uppercase;
+				font-style: normal;
+			}
+			&.jetpack_subscription_widget,
+			&.widget_text{
+				width: 100%;
+				@media (min-width: 768px)  { 
+					width: 45%;
+					margin: 20px 2.5%;
+					box-sizing: border-box;
+					min-height: 240px;
+				}
+				
+			}
+			&.widget_text.wcb_widget_sponsors,
+			&.wcb_widget_sponsors{
+				display: block;
+				float: none;
+				width: 100%;
+				background: #fff;
+				text-align: center;
+				.sponsor-level{
+					clear: both;
+					display: block;
+					&.venue-sponsor{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 300px;
+							}
+						}
+					}
+					&.wordcamp-pillar{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 300px;
+							}
+						}
+					}
+					&.wordcamp-champion{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 300px;
+							}
+						}
+					}
+					&.wordcamp-accomplice{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 250px;
+							}
+						}
+					}
+					&.gold-sponsor{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 200px;
+							}
+						}
+					}
+					&.bronze-sponsor{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 150px;
+							}
+						}
+					}
+					&.small-business-sponsor{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 125px;
+							}
+						}
+					}
+					&.in-kind-sponsor{
+						a.sponsor-logo{
+							img{
+								width:78%;
+								max-width: 100px;
+							}
+						}
+					}
+					
+					a.sponsor-logo{
+						display: inline-block;
+						padding: 20px;
+						img{
+						width: 78%;
+						height: auto;
+						
+        -webkit-transition: all 500ms ease-in-out;
+           -moz-transition: all 500ms ease-in-out;
+            -ms-transition: all 500ms ease-in-out;
+             -o-transition: all 500ms ease-in-out;
+                transition: all 500ms ease-in-out;
+							-webkit-filter: grayscale(100%);
+							-moz-filter: grayscale(100%);
+							filter: grayscale(100%);
+							/*  -webkit-filter: sepia(100%); */
+						}
+					
+					&:hover {
+						img{
+							-webkit-filter: grayscale(0%);
+						}
+					}
+					}
+					h4.sponsor-level-title{
+						color: $red;
+						font-size: 12px;
+						@extend .brandon-bld;
+						text-transform: uppercase;
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+//!@import "partials/_formatting";
+h1, h2, h3, #navbar a{
+	@extend .brandon-bld;
+}
+
+
+h1{
+	text-transform: uppercase;
+	font-size:24px;
+	color:$dark-gray;
+}
+h4, h5, p, li, input, textarea {
+  font-family: $body-font;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.hentry {
+  padding: 60px 0;
+}
+
+
+
+.entry-title {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 42px;
+  text-transform: uppercase;
+  @extend .brandon-bld;
+  a{
+	  color: inherit;
+	  &:hover{
+		  color: $blue;
+	  }
+  }
+}
+
+.entry-meta{
+  text-transform: uppercase;
+  @extend .brandon-bld;
+  color: #000;
+  font-size: 12px;
+  *:before{
+		color: #000;
+	}
+	.date a:before{
+	content: '\f307';
+	}
+}
+
+.entry-content {
+  font-family: $body-font;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  background: $red;
+  border: none;
+  border-bottom: none;
+  border-radius: 0;
+  color: #fff;
+  font-family: $body-font;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.5pt;
+  @extend .transition;
+
+  &:hover {
+    background: $dark-red;
+    color: #fff;
+  }
+}
+
+a.button, .widget a.button {
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: $orange;
+  color: #fff;
+  font-family: $body-font;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.5pt;
+  @extend .transition;
+
+  &:hover {
+    background: $yellow-green;
+    color: $green;
+    text-decoration: none;
+  }
+}
+a.button {
+  display:inline-block;
+  padding:0 10px;
+}
+
+//!@import "partials/_footer";
+footer.site-footer {
+  background: #fff;
+  text-align: center !important;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 1.5pt;
+  /* padding-top: 200px; */
+  
+
+  #secondary {
+    background: #fff;
+    border-top: none;
+  }
+  .textwidget,
+  .widget-title, .widget-title a, .wp-caption-text {
+    color: #000;
+  }
+
+  .site-info {
+    padding: 10px 0;
+	background: $blue;
+    display: block;
+    clear: both;
+    max-width: 100%;
+  	background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/date_time.png);
+  	background-position: center top;
+  	background-repeat:repeat-x;
+  	background-size: auto 52px;
+  	padding-top: 65px;
+  	margin-bottom: 20px;
+  }
+
+  a {
+    color: #FFF;
+  }
+}
+
+//!@import "partials/_responsive";
+
+// Navbar fixes
+@media screen and (min-width: 1203px) {
+  .navbar .nav-menu li a {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1044px) and (max-width: 1202px) {
+  .navbar .nav-menu li a {
+    padding: 0 15px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 644px) and (max-width: 1043px) {
+  .navbar .nav-menu li a {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  .site-info,
+   #main {
+  	background-size: 100% auto !important;
+  }
+}
+
+// Only Desktop Changes
+@media screen and (min-width: 644px) {
+  .home .site-header {
+    .home-link {
+      padding-top: 60px;
+      min-height: 480px;
+
+      .site-title {
+        height: 250px;
+        width: 371px;
+        background-size: auto;
+      }
+
+      .site-description {
+        top: 50px;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+
+  // Navbar
+  #navbar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    max-width: 100%;
+    background: $red;
+    z-index: 10000;
+
+    .nav-menu {
+      padding: 0;
+      text-align: center;
+
+      .current_page_item > a,
+      .current_page_ancestor > a,
+      .current-menu-item > a,
+      .current-menu-ancestor > a {
+        font-style: normal;
+      }
+
+      li a {
+        line-height: 60px;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1.5pt;
+        /* @extend .transition; */
+      }
+
+      li:hover > a {
+      	background: transparent;
+      }
+
+      li a:hover {
+      	background: $red;
+        color: $dark-red;
+      }
+
+      .sub-menu,
+      .children {
+        border: none;
+        left: 0;
+        /* background-color: $dark-red; */
+
+        li {
+          width: 100%;
+
+          a {
+            line-height: 24px;
+            padding: 12px 20px;
+            border-bottom: 1px solid #2C503A;
+            text-align: center;
+            width: 100%;
+            min-width: 150px;
+          }
+        }
+      }
+    }
+
+    li.current_page_item:after,
+    li.current-menu-ancestor:after,
+    li.current-menu-parent:after,
+    li.current_page_parent:after,
+    li.current_page_ancestor:after {
+      display: block;
+      content: '';
+      height: 8px;
+      width: 100%;
+      background: $dark-red;
+      position: absolute;
+      bottom: 0px;
+    }
+
+    li.tickets {
+      float: right;
+	  margin-right: 10px;
+      a {
+        background: $dark-red;
+        color: #fff;
+        /* @extend .transition; */
+
+        &:hover {
+          background: $blue;
+          color: #fff;
+        }
+      }
+    }
+
+    .home a {
+      text-indent: -99999em;
+      height: 60px;
+      width: 60px;
+    }
+
+    li.current_page_item.home:after,
+    li.current_page_item.tickets:after {
+      display: none;
+    }
+  }
+
+
+  .main-navigation {
+    max-width: 100% !important;
+  }
+
+  .site-content {
+    min-height: 720px;
+  }
+
+  #main {
+  	background-image: url(http://2014.grandrapids.wordcamp.org/files/2014/06/date_time.png);
+  	background-position: center top;
+  	background-repeat: repeat-x;
+  	background-size: auto 52px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 65px;
+  }
+
+  // Sponsor logos
+  #secondary .wcb_widget_sponsors .sponsor-level .sponsor-logo {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+		box-sizing: border-box;
+  }
+  
+
+  // Champion level
+  #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-champion .sponsor-logo {
+    width: 33%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  // Accomplise level
+  #secondary .wcb_widget_sponsors .sponsor-level.wordcamp-accomplice .sponsor-logo {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+	
+	#secondary .wcb_widget_sponsors .sponsor-level.small-business-sponsor .sponsor-logo {
+		min-height: 100px;
+  }
+	
+	// In-Kind level
+	#secondary .wcb_widget_sponsors .sponsor-level.in-kind-sponsor .sponsor-logo {
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+		min-height: 174px;
+  }
+}
+
+// Mobile Changes
+@media screen and (max-width: 643px) {
+  header#masthead {
+    margin-top: 0;
+  }
+
+  .navbar {
+    background-color: $red;
+    color: #FFF !important;
+
+    .nav-menu li a,
+    .nav-menu li > ul a {
+      color: #FFF;
+    }
+    
+
+    .nav-menu .sub-menu, .nav-menu .children {
+      border: none;
+    }
+  }
+  .toggled-on .nav-menu li a:hover, .toggled-on .nav-menu ul a:hover{
+	  background-color: $dark-red;
+  }
+}
+//end of partials import.
+
+body.ie8,
+body.ie7{
+	#main,
+	.site-info{
+		background-image: none !important;
+	}
+	.site-description{
+		display: block !important;
+	}
+}
+
+
 
 // Fixing a crappy FF bug
 .entry-content,
@@ -98,5 +738,185 @@ p,
 }
 
 
-@import "partials/_schedule";
+//!@import "partials/_schedule";
+
+// Schedule
+// body.page-id-1 {
+//   .sidebar-container {
+//     display: none;
+//   }
+// }
+// #post-1 {
+//   .entry-header,
+//   .entry-content,
+//   .entry-summary,
+//   .entry-meta {
+//     padding-right: 30px;
+//     padding-left: 30px;
+//   }
+// }
+
+.wcpt-schedule {
+  td {
+    vertical-align: top;
+  }
+  .wcpt-track-name {
+    display: block;
+  }
+  .wcpt-session-title {
+    display: block;
+  }
+  .wcpt-session-speakers {
+    a {
+      color: #21759b;
+    }
+  }
+}
+
+// Schedule Colors:
+$s-gray: #797979;
+$s-red: #832F3F;
+$s-orange: #EC5B2F;
+$s-blue: darken(#2D99C8, 10%);
+$s-green: darken(#33AA97, 10%);
+$s-purple: #AE4395;
+
+body.page-id-1 {
+  .sidebar-container {
+    display: none;
+  }
+}
+#post-1 {
+  .entry-header,
+  .entry-content,
+  .entry-summary,
+  .entry-meta {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .color-key {
+    margin-bottom: 20px;
+    clear: both;
+
+    & > div {
+      padding: 5px;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      border-right: 1px solid #fff;
+    }
+
+    .key-designer {
+      background: $s-green;
+    }
+    .key-user-content {
+      background: $s-blue;
+    }
+    .key-beginner {
+      background: $s-orange;
+    }
+    .key-developer {
+      background: $s-purple;
+    }
+    .key-everyone {
+      background: $s-red;
+    }
+    .key-break {
+      background: $s-gray;
+    }
+  }
+
+  .wcpt-schedule {
+    td {
+      vertical-align: top;
+    }
+
+    // Track Highlighting
+    .wcb-track-beginner {
+      background: $s-orange;
+    }
+    .wcb-track-usercontent {
+      background: $s-blue;
+    }
+    .wcb-track-designer {
+      background: $s-green;
+    }
+    .wcb-track-developer {
+      background: $s-purple;
+    }
+    .wcb-session-building-better-websites-through-collaboration-communication-and-consistency {
+      background: #278374; /* Old browsers */
+      background: -moz-linear-gradient(-45deg,  #278374 0%, #278374 50%, #ae4395 51%, #ae4395 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#278374), color-stop(50%,#278374), color-stop(51%,#ae4395), color-stop(100%,#ae4395)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(-45deg,  #278374 0%,#278374 50%,#ae4395 51%,#ae4395 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(-45deg,  #278374 0%,#278374 50%,#ae4395 51%,#ae4395 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(-45deg,  #278374 0%,#278374 50%,#ae4395 51%,#ae4395 100%); /* IE10+ */
+      background: linear-gradient(135deg,  #278374 0%,#278374 50%,#ae4395 51%,#ae4395 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#278374', endColorstr='#ae4395',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    .wcb-track-room-1.wcb-track-room-2.wcb-track-room-3.wcb-track-room-4 {
+      background: $s-gray;
+    }
+    .wcpt-session-type-custom.wcb-track-room-1 {
+      background: $s-red;
+    }
+    
+    .wcpt-session-type-custom,
+    .wcpt-session-type-session {
+      padding-left: 10px;
+    }
+    .wcpt-track-name {
+      display: block;
+    }
+    .wcpt-session-title {
+      color: #fff;
+      line-height: 1.5;
+      font-weight: bold;
+    }
+    .wcpt-session-title {
+      display: block;
+    }
+    .wcpt-session-speakers {
+      font-style: italic;
+      a {
+        color: #DCDCDC;
+
+        &:before {
+          content: '- ';
+        }
+      }
+      &:before {
+        display: none;
+      }
+    }
+    .wcpt-session-type-session:before {
+      color: #fff;
+    }
+    
+    .wcpt-session-empty {
+      display: none;
+    }
+  }
+}
+@media all and (min-width: 500px) {
+  #post-1 .color-key > div {
+    float: left;
+    width: 50%;
+  }
+  #post-1 .wcpt-schedule td {
+    border-right: 1px solid #fff;
+  }
+}
+
+
+//Edits
+/*Remove default padding on the 2013 theme.*/
+.sidebar .entry-header,
+.sidebar .entry-content,
+.sidebar .entry-summary,
+.sidebar .entry-meta {
+	max-width: 604px!important;
+	/* padding: 0 376px 0 60px; */
+	padding: 0px 0px 0px 0px!important;
+}
 
